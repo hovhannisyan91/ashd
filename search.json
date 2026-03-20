@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html#the-mandate",
+    "href": "index.html#the-mandate",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "The Mandate",
+    "text": "The Mandate\n\n\nContext\n\nTurn data into a controlled, trusted, monetizable bank asset\nArdshinbank is hiring a CDO to build one integrated data function across:\n\nData Governance\nAnalytics and BI\nData Science and AI\nEnterprise data platform: DWH + Data Lake\n\n\n\n\n\n\nMy vision is not to build another reporting team. It is to create a bank-wide data operating system that improves decisions, strengthens control, and accelerates digital growth.\n\n\nBased on Ardshinbank CDO job description"
+  },
+  {
+    "objectID": "index.html#why-this-role-matters-now",
+    "href": "index.html#why-this-role-matters-now",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "Why This Role Matters Now",
+    "text": "Why This Role Matters Now\n\n\n\n\n\nRegulatory confidence\nData ownership, lineage, quality, and access controls must be explicit and auditable.\n\n\n\n\n\nBanking complexity\nCore banking, digital channels, risk, finance, and CRM need one common information backbone.\n\n\n\n\n\nAI readiness\nAI without governed, reusable, high-quality data creates risk faster than value."
+  },
+  {
+    "objectID": "index.html#my-north-star",
+    "href": "index.html#my-north-star",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "My North Star",
+    "text": "My North Star\n\n\n\n1\n\nTrusted data\nA governed source of truth for customers, products, transactions, and risk.\n\n\n\n2\n\nFaster decisions\nSelf-service analytics for executives and business units with stable KPI definitions.\n\n\n\n3\n\nScalable innovation\nA production-grade path from BI to advanced analytics to AI deployment."
+  },
+  {
+    "objectID": "index.html#what-i-would-build",
+    "href": "index.html#what-i-would-build",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "What I Would Build",
+    "text": "What I Would Build\nflowchart LR\n    A[Source Systems\\nCore Banking, CRM, Digital, Risk, Finance] --&gt; B[Data Integration Layer]\n    B --&gt; C[Enterprise Data Lake]\n    B --&gt; D[Curated Data Warehouse]\n    C --&gt; E[Data Science Sandbox]\n    D --&gt; F[Regulatory and Management Reporting]\n    D --&gt; G[Self-Service BI and KPI Layer]\n    C --&gt; H[ML and AI Feature Store]\n    E --&gt; I[Model Validation and MLOps]\n    H --&gt; I\n    I --&gt; J[Production Use Cases\\nScoring, Next Best Offer, Fraud, Churn]\n    K[Governance, Metadata, Quality, Security] --- B\n    K --- C\n    K --- D\n    K --- I"
+  },
+  {
+    "objectID": "index.html#operating-model",
+    "href": "index.html#operating-model",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "Operating Model",
+    "text": "Operating Model\n\n\nCentral data office\n\nEnterprise architecture for data\nGovernance, standards, controls\nShared data engineering platform\nCommon semantic layer and KPI catalog\nData science governance and MLOps\n\n\n\nFederated business ownership\n\nBusiness data owners by domain\nEmbedded analysts close to decisions\nPrioritization with business and IT\nShared accountability for quality and adoption\nClear stewardship model"
+  },
+  {
+    "objectID": "index.html#governance-first-not-governance-heavy",
+    "href": "index.html#governance-first-not-governance-heavy",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "Governance First, Not Governance Heavy",
+    "text": "Governance First, Not Governance Heavy\n\n\nOwnership\nAssign accountable data owners and stewards for critical domains.\n\n\nQuality\nDefine controls, thresholds, issue workflows, and remediation cycles.\n\n\nAccess\nImplement role-based access, confidentiality rules, and traceability.\n\n\n\nGovernance principle\nMinimum viable control, maximum practical adoption.\nPolicies only matter when they are embedded in platforms, workflows, and delivery teams."
+  },
+  {
+    "objectID": "index.html#kpi-architecture",
+    "href": "index.html#kpi-architecture",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "KPI Architecture",
+    "text": "KPI Architecture\nflowchart TD\n    A[Business Objectives] --&gt; B[Executive KPI Tree]\n    B --&gt; C[Standard Metric Definitions]\n    C --&gt; D[Certified Data Products]\n    D --&gt; E[Dashboards and Alerts]\n    D --&gt; F[Ad hoc Exploration]\n    C --&gt; G[Regulatory Reporting]\n    H[Data Quality Rules] --&gt; D\n    I[Metadata and Lineage] --&gt; C"
+  },
+  {
+    "objectID": "index.html#first-90-days",
+    "href": "index.html#first-90-days",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "First 90 Days",
+    "text": "First 90 Days\n\n\n\n0-30 days\n\nAssess\nMap systems, stakeholders, data pain points, and critical reporting flows.\n\n\n\n31-60 days\n\nStabilize\nLaunch governance council, define target architecture, identify priority use cases.\n\n\n\n61-90 days\n\nDeliver\nStart lighthouse initiatives with measurable business outcomes and visible executive sponsorship."
+  },
+  {
+    "objectID": "index.html#priority-deliverables-in-year-1",
+    "href": "index.html#priority-deliverables-in-year-1",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "Priority Deliverables In Year 1",
+    "text": "Priority Deliverables In Year 1\n\n\nFoundation\n\nEnterprise data model for critical banking domains\nData catalog, glossary, and ownership matrix\nDWH and lake architecture roadmap\nInitial quality scorecards for top-priority datasets\nAccess control model aligned with security and compliance\n\n\n\nBusiness value\n\nExecutive KPI layer with certified definitions\nStandard reporting packs for management and regulators\nCustomer 360 and segmentation foundation\nFirst ML use cases with controlled deployment\nAdoption model for self-service analytics"
+  },
+  {
+    "objectID": "index.html#use-cases-i-would-prioritize",
+    "href": "index.html#use-cases-i-would-prioritize",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "Use Cases I Would Prioritize",
+    "text": "Use Cases I Would Prioritize\n\n\nValue creation\n\nNext best product offer\nCustomer churn prediction\nBranch and channel performance optimization\nMarketing attribution and segment profitability\n\n\n\nRisk and control\n\nFraud detection enhancement\nEarly warning indicators\nCredit analytics acceleration\nData quality monitoring for regulatory submissions"
+  },
+  {
+    "objectID": "index.html#team-design",
+    "href": "index.html#team-design",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "Team Design",
+    "text": "Team Design\nflowchart TB\n    A[Chief Data Officer] --&gt; B[Data Governance Lead]\n    A --&gt; C[Head of Data Engineering]\n    A --&gt; D[Head of Analytics and BI]\n    A --&gt; E[Lead Data Scientist]\n    B --&gt; F[Data Stewards]\n    C --&gt; G[Data Engineers]\n    D --&gt; H[BI Developers and Analysts]\n    E --&gt; I[ML Engineers and Data Scientists]\n    J[Business Data Owners] --- B\n    J --- D\n    K[Enterprise Architecture and InfoSec] --- A"
+  },
+  {
+    "objectID": "index.html#how-i-would-lead",
+    "href": "index.html#how-i-would-lead",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "How I Would Lead",
+    "text": "How I Would Lead\n\n\nBusiness-first\nStart from decisions, controls, and measurable outcomes rather than tools.\n\n\nPlatform mindset\nBuild reusable data products and shared services, not one-off requests.\n\n\nExecution discipline\nSet roadmaps, operating cadences, ownership, and delivery metrics."
+  },
+  {
+    "objectID": "index.html#success-metrics",
+    "href": "index.html#success-metrics",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "Success Metrics",
+    "text": "Success Metrics\n\n\nTrust\nImprovement in critical data quality scores and fewer reporting disputes.\n\n\nSpeed\nShorter turnaround from data request to management insight.\n\n\nImpact\nUse cases moved into production and linked to commercial or risk outcomes."
+  },
+  {
+    "objectID": "index.html#closing",
+    "href": "index.html#closing",
+    "title": "A Data Vision for Ardshinbank",
+    "section": "Closing",
+    "text": "Closing\n\n\nMy proposition for Ardshinbank\n\nEstablish a credible, modern data function\nBalance governance with delivery speed\nBuild a scalable platform for BI, analytics, and AI\nMake data a competitive capability, not just an IT service\n\n\n\n\nIf selected, I would focus on one outcome above all: a data function the bank can trust, use, and scale.\n\n\nKaren Hovhannisyan"
+  }
+]
