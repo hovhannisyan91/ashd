@@ -1,9 +1,205 @@
 [
   {
-    "objectID": "index.html#test",
-    "href": "index.html#test",
+    "objectID": "index.html#objective",
+    "href": "index.html#objective",
     "title": "Data Vision",
-    "section": "Test",
-    "text": "Test"
+    "section": "Objective",
+    "text": "Objective\nTo establish data as a strategic banking asset that strengthens regulatory compliance, improves operational efficiency, enables trusted decision-making, and accelerates AI-driven innovation across Ardshinbank."
+  },
+  {
+    "objectID": "index.html#context-why-this-matters-now",
+    "href": "index.html#context-why-this-matters-now",
+    "title": "Data Vision",
+    "section": "Context: Why This Matters Now",
+    "text": "Context: Why This Matters Now\nArdshinbank is operating at significant scale, with a broad branch network, diversified banking model, and growing digital footprint. This creates a clear need for a stronger enterprise data function that can unify governance, architecture, analytics, and AI under one strategic direction.\n\nScale requires control\nDigital growth requires stronger data foundations\nAdvanced analytics requires trusted, governed data\nAI adoption requires enterprise-grade model governance\nBusiness units need one reliable version of the truth"
+  },
+  {
+    "objectID": "index.html#my-vision-in-one-sentence",
+    "href": "index.html#my-vision-in-one-sentence",
+    "title": "Data Vision",
+    "section": "My Vision in One Sentence",
+    "text": "My Vision in One Sentence\nBuild a trusted, governed, scalable, and business-driven data organization that connects data governance, enterprise data platforms, analytics, and data science into one operating model for the bank."
+  },
+  {
+    "objectID": "index.html#banking-is-different",
+    "href": "index.html#banking-is-different",
+    "title": "Data Vision",
+    "section": "Banking is Different",
+    "text": "Banking is Different\nCompared with many other industries, banking requires the data function to support:\n\nRegulatory compliance\nData lineage and auditability\nConfidentiality and controlled access\nRisk transparency\nNear real-time operational visibility\nConsistent KPI definitions across the bank\nTrusted AI adoption with model controls"
+  },
+  {
+    "objectID": "index.html#the-mandate-of-the-cdo",
+    "href": "index.html#the-mandate-of-the-cdo",
+    "title": "Data Vision",
+    "section": "The Mandate of the CDO",
+    "text": "The Mandate of the CDO\nThe CDO function should unify four responsibilities:\n\nData Governance\nownership, policies and standards, metadata, data quality, lifecycle management\nEnterprise Data Platform\nDWH, Data Lake, integration with core and digital systems, scalable and secure architecture\nAnalytics & BI\nstandardized KPIs, management dashboards, self-service analytics, reliable reporting\nData Science & AI\nuse-case prioritization, experimentation, validation, deployment, monitoring"
+  },
+  {
+    "objectID": "index.html#what-success-looks-like",
+    "href": "index.html#what-success-looks-like",
+    "title": "Data Vision",
+    "section": "What Success Looks Like",
+    "text": "What Success Looks Like\n\nOne governed enterprise data platform\nOne common KPI language across departments\nOne data governance framework with clear ownership\nTrusted, auditable, high-quality data pipelines\nSelf-service analytics for business teams\nScalable model lifecycle management\nControlled rollout of AI and machine learning in high-value domains\nA strong value-driven culture where data is embedded in day-to-day decisions"
+  },
+  {
+    "objectID": "index.html#likely-enterprise-data-gaps",
+    "href": "index.html#likely-enterprise-data-gaps",
+    "title": "Data Vision",
+    "section": "Likely Enterprise Data Gaps",
+    "text": "Likely Enterprise Data Gaps\n\nFragmented data ownership across functions\nInconsistent KPI definitions between departments\nReporting duplication and overlapping dashboards\nLimited metadata, lineage, and data quality visibility\nWeak linkage between business priorities and analytical delivery\nHigh dependency on technical teams for recurring reporting\nAdvanced analytics not yet industrialized end-to-end\nAI use cases may emerge faster than governance and controls"
+  },
+  {
+    "objectID": "index.html#what-this-means-in-banking",
+    "href": "index.html#what-this-means-in-banking",
+    "title": "Data Vision",
+    "section": "What This Means in Banking",
+    "text": "What This Means in Banking\nWithout a strong CDO function, the bank risks:\n\nslower decision-making\nreduced trust in reports\nduplicated effort across teams\nregulatory and audit exposure\nweaker prioritization of analytics investments\ndelayed industrialization of AI use cases"
+  },
+  {
+    "objectID": "index.html#my-approach",
+    "href": "index.html#my-approach",
+    "title": "Data Vision",
+    "section": "My Approach",
+    "text": "My Approach\nI would build the data function around three integrated pillars:\n\nTrust\nenterprise data governance, ownership, quality controls, metadata, lineage, access controls\nScale\nmodern DWH and Data Lake architecture, reusable data products, governed semantic layer, scalable pipelines\nValue\nstandardized reporting, self-service analytics, high-value AI use cases, measurable business impact"
+  },
+  {
+    "objectID": "index.html#cdo-operating-model",
+    "href": "index.html#cdo-operating-model",
+    "title": "Data Vision",
+    "section": "CDO Operating Model",
+    "text": "CDO Operating Model\nflowchart TB\n    A[Chief Data Officer] --&gt; B[Data Governance]\n    A --&gt; C[Enterprise Data Platform]\n    A --&gt; D[Analytics & BI]\n    A --&gt; E[Data Science & AI]\n\n    B --&gt; B1[Data ownership]\n    B --&gt; B2[Policies & standards]\n    B --&gt; B3[Data quality]\n    B --&gt; B4[Metadata & lineage]\n    B --&gt; B5[Data access controls]\n\n    C --&gt; C1[Data Warehouse]\n    C --&gt; C2[Data Lake]\n    C --&gt; C3[Integration layer]\n    C --&gt; C4[Core banking & digital systems]\n    C --&gt; C5[Security & reliability]\n\n    D --&gt; D1[Executive dashboards]\n    D --&gt; D2[Standardized KPIs]\n    D --&gt; D3[Self-service analytics]\n    D --&gt; D4[Regulatory & management reporting]\n\n    E --&gt; E1[Use-case portfolio]\n    E --&gt; E2[ML models]\n    E --&gt; E3[Model validation]\n    E --&gt; E4[MLOps & monitoring]\n    E --&gt; E5[Responsible AI]"
+  },
+  {
+    "objectID": "index.html#target-architecture",
+    "href": "index.html#target-architecture",
+    "title": "Data Vision",
+    "section": "Target Architecture",
+    "text": "Target Architecture\nflowchart LR\n    A[Core Banking Systems] --&gt; X[Integration & Ingestion Layer]\n    B[Cards & Payments] --&gt; X\n    C[CRM & Customer Channels] --&gt; X\n    D[Mobile / Online Banking] --&gt; X\n    E[Risk & Finance Systems] --&gt; X\n    F[External / Regulatory / Market Data] --&gt; X\n\n    X --&gt; G[Raw Zone / Data Lake]\n    X --&gt; H[Operational Data Store]\n\n    G --&gt; I[Curated Data Layer]\n    H --&gt; I\n\n    I --&gt; J[Enterprise Data Warehouse]\n    I --&gt; K[Feature Store / Analytical Sandbox]\n\n    J --&gt; L[Semantic Layer / KPI Layer]\n    L --&gt; M[BI Dashboards]\n    L --&gt; N[Self-Service Analytics]\n\n    K --&gt; O[ML / AI Models]\n    O --&gt; P[Decisioning / Alerts / Scoring]\n\n    Q[Data Governance] --- G\n    Q --- I\n    Q --- J\n    Q --- K\n    Q --- L\n\n    R[Security / Privacy / Access Control] --- X\n    R --- G\n    R --- J\n    R --- O"
+  },
+  {
+    "objectID": "index.html#architecture-principles",
+    "href": "index.html#architecture-principles",
+    "title": "Data Vision",
+    "section": "Architecture Principles",
+    "text": "Architecture Principles\n\nGoverned by design\nSecurity by design\nReusable data products\nStandardized semantic layer\nTraceable lineage\nScalable for both reporting and AI\nSeparation of raw, curated, and consumption layers\nControlled access based on data sensitivity"
+  },
+  {
+    "objectID": "index.html#data-governance-should-not-be-bureaucracy",
+    "href": "index.html#data-governance-should-not-be-bureaucracy",
+    "title": "Data Vision",
+    "section": "Data Governance Should Not Be Bureaucracy",
+    "text": "Data Governance Should Not Be Bureaucracy\nThe goal is not to slow the bank down.\nThe goal is to make data trusted, reusable, and scalable.\n\ndefine data domains and owners\nimplement data quality controls for critical datasets\ncreate enterprise business glossary and KPI dictionary\nestablish metadata and lineage standards\nformalize data access approval and monitoring\ndefine retention and lifecycle rules\nconnect governance to delivery, not separate from it"
+  },
+  {
+    "objectID": "index.html#governance-journey",
+    "href": "index.html#governance-journey",
+    "title": "Data Vision",
+    "section": "Governance Journey",
+    "text": "Governance Journey\njourney\n    title Data Governance Maturity Journey\n    section Foundation\n      Identify critical data domains: 4: CDO\n      Appoint data owners and stewards: 4: CDO, Business\n      Define priority policies and standards: 4: CDO, Risk, Security\n    section Control\n      Launch data quality controls: 5: Data Governance, Engineering\n      Build metadata and lineage visibility: 4: Governance, Engineering\n      Standardize KPI definitions: 5: Analytics, Business\n    section Scale\n      Embed governance into delivery pipelines: 5: Engineering, Analytics\n      Introduce access monitoring and auditability: 4: Security, Governance\n      Expand coverage across departments: 5: CDO, Business"
+  },
+  {
+    "objectID": "index.html#from-reporting-to-decision-intelligence",
+    "href": "index.html#from-reporting-to-decision-intelligence",
+    "title": "Data Vision",
+    "section": "From Reporting to Decision Intelligence",
+    "text": "From Reporting to Decision Intelligence\nThe analytics function should evolve from producing reports to enabling decisions.\n\nremove overlapping and conflicting dashboards\ncreate a single KPI layer for enterprise reporting\nattach definitions and data dictionary to reports\nprioritize management dashboards over static tables\nincrease self-service for business users with governed access\nalign analytics backlog with strategic business priorities\nshift from reactive to proactive insight generation"
+  },
+  {
+    "objectID": "index.html#reporting-principles",
+    "href": "index.html#reporting-principles",
+    "title": "Data Vision",
+    "section": "Reporting Principles",
+    "text": "Reporting Principles\n\nOne KPI, one definition\nOne trusted source\nDashboards over manual table-based reporting where appropriate\nBusiness relevance over technical output\nProactive insight generation, not only data delivery"
+  },
+  {
+    "objectID": "index.html#ai-adoption-must-be-pragmatic-and-controlled",
+    "href": "index.html#ai-adoption-must-be-pragmatic-and-controlled",
+    "title": "Data Vision",
+    "section": "AI Adoption Must Be Pragmatic and Controlled",
+    "text": "AI Adoption Must Be Pragmatic and Controlled\nAI in banking should focus on clear value, strong controls, and measurable outcomes, not experimentation for its own sake.\n\ncustomer propensity and next-best-action\nchurn / attrition prevention\ncross-sell and upsell recommendation\nfraud and anomaly detection\ncollections optimization\nbranch and channel performance optimization\nservice quality prediction\ndocument intelligence and internal process automation"
+  },
+  {
+    "objectID": "index.html#model-lifecycle",
+    "href": "index.html#model-lifecycle",
+    "title": "Data Vision",
+    "section": "Model Lifecycle",
+    "text": "Model Lifecycle\nflowchart LR\n    A[Business Problem] --&gt; B[Use-Case Prioritization]\n    B --&gt; C[Data Readiness Assessment]\n    C --&gt; D[Experimentation]\n    D --&gt; E[Validation]\n    E --&gt; F[Deployment]\n    F --&gt; G[Monitoring]\n    G --&gt; H[Retraining / Retirement]"
+  },
+  {
+    "objectID": "index.html#principles-for-ai-adoption",
+    "href": "index.html#principles-for-ai-adoption",
+    "title": "Data Vision",
+    "section": "Principles for AI Adoption",
+    "text": "Principles for AI Adoption\n\nstart with high-value, high-feasibility use cases\nensure explainability where needed\nimplement model monitoring and periodic review\nalign with risk, compliance, and security teams\ntreat model governance as part of enterprise governance\nbuild reusable ML pipelines rather than isolated prototypes"
+  },
+  {
+    "objectID": "index.html#the-cdo-function-must-be-deeply-embedded",
+    "href": "index.html#the-cdo-function-must-be-deeply-embedded",
+    "title": "Data Vision",
+    "section": "The CDO Function Must Be Deeply Embedded",
+    "text": "The CDO Function Must Be Deeply Embedded\nThe data office should act as a strategic partner to:\n\nRetail Banking\nSME / Corporate Banking\nRisk\nFinance\nOperations\nDigital Channels\nIT / Enterprise Architecture\nInformation Security\nInternal Audit\nHR"
+  },
+  {
+    "objectID": "index.html#engagement-model",
+    "href": "index.html#engagement-model",
+    "title": "Data Vision",
+    "section": "Engagement Model",
+    "text": "Engagement Model\nflowchart LR\n    A[Business Units] --&gt; B[Demand Intake & Prioritization]\n    B --&gt; C[CDO Office Portfolio Management]\n    C --&gt; D[Analytics / Engineering / DS Delivery]\n    D --&gt; E[Dashboards / Models / Data Products]\n    E --&gt; F[Adoption & Business Impact Tracking]\n    F --&gt; B"
+  },
+  {
+    "objectID": "index.html#recommended-core-structure",
+    "href": "index.html#recommended-core-structure",
+    "title": "Data Vision",
+    "section": "Recommended Core Structure",
+    "text": "Recommended Core Structure\n\nChief Data Officer\nHead of Data Governance\nHead of Data Platform / Engineering\nHead of Analytics & BI\nHead of Data Science / AI\ndata governance specialists\nanalytics engineers\ndata engineers\nBI developers / analysts\ndata scientists\nML / MLOps capability\ndata architects\nbusiness-facing analytics leads"
+  },
+  {
+    "objectID": "index.html#extended-model",
+    "href": "index.html#extended-model",
+    "title": "Data Vision",
+    "section": "Extended Model",
+    "text": "Extended Model\n\nData Owners in business and control functions\nData Stewards for key domains\nAnalytics Champions / Ambassadors across departments"
+  },
+  {
+    "objectID": "index.html#phase-transformation-roadmap",
+    "href": "index.html#phase-transformation-roadmap",
+    "title": "Data Vision",
+    "section": "3-Phase Transformation Roadmap",
+    "text": "3-Phase Transformation Roadmap\ntimeline\n    title CDO Transformation Roadmap\n    Q1-Q2 2026 : Assess current state\n               : Define target operating model\n               : Identify priority data domains\n               : Launch governance framework\n               : Map critical KPIs and reports\n    Q3-Q4 2026 : Stabilize DWH / Lake priorities\n               : Standardize KPI layer\n               : Launch executive dashboards\n               : Establish data quality controls\n               : Prioritize first AI use cases\n    2027 : Expand governed self-service analytics\n         : Scale metadata and lineage\n         : Industrialize ML lifecycle\n         : Deliver reusable data products\n         : Reduce duplicate reporting\n    2028 : Mature enterprise data platform\n         : Expand AI in production\n         : Embed data culture bank-wide\n         : Operate with one trusted analytical foundation"
+  },
+  {
+    "objectID": "index.html#first-100-days",
+    "href": "index.html#first-100-days",
+    "title": "Data Vision",
+    "section": "First 100 Days",
+    "text": "First 100 Days\n\nassess architecture, reporting landscape, data quality, governance maturity\nidentify critical pain points and quick wins\nmap key stakeholders and existing delivery model\ndefine top enterprise KPIs\nidentify critical data domains\nselect highest-value use cases for analytics and AI\nassign ownership and stewardship for priority domains\nlaunch KPI dictionary and metadata baseline\nfix one high-visibility reporting inconsistency\nimplement first critical data quality control set"
+  },
+  {
+    "objectID": "index.html#toward-a-value-driven-culture",
+    "href": "index.html#toward-a-value-driven-culture",
+    "title": "Data Vision",
+    "section": "Toward a value-driven culture",
+    "text": "Toward a value-driven culture\n\nCreating internal demand for trusted data products\nEnsuring data consistency and accessibility\nConducting regular stakeholder meetings to align analytics with business demands\nBuilding proactive reporting and alerting\nOrganizing workshops with relevant departments\nRunning cross-functional analytical projects\nPromoting continuous learning\nMaking data ownership part of management accountability"
+  },
+  {
+    "objectID": "index.html#the-cultural-shift-i-want-to-create",
+    "href": "index.html#the-cultural-shift-i-want-to-create",
+    "title": "Data Vision",
+    "section": "The Cultural Shift I Want to Create",
+    "text": "The Cultural Shift I Want to Create\nFrom:\n\nreport request culture\nsiloed data ownership\nfragmented KPIs\nreactive analytics\n\nTo:\n\nproduct mindset for data\nenterprise ownership\none KPI language\nproactive and predictive decision-making"
+  },
+  {
+    "objectID": "index.html#success-metrics-for-the-cdo-function",
+    "href": "index.html#success-metrics-for-the-cdo-function",
+    "title": "Data Vision",
+    "section": "Success Metrics for the CDO Function",
+    "text": "Success Metrics for the CDO Function\n\n% of critical data elements with owner assigned\n% of priority reports linked to KPI dictionary\ndata quality issue resolution time\nmetadata / lineage coverage for critical datasets\npipeline reliability\ndata availability SLA\nreduction in duplicate reports\ndashboard adoption by business units\nnumber of use cases in production\nbusiness value delivered by models"
+  },
+  {
+    "objectID": "index.html#final-thought",
+    "href": "index.html#final-thought",
+    "title": "Data Vision",
+    "section": "Final Thought",
+    "text": "Final Thought\nMy vision is to help Ardshinbank build a data function that is not only technically strong, but institutionally trusted.\n\ngovernance strengthens delivery\narchitecture enables scale\nanalytics support decisions\nAI creates measurable value\ndata becomes a shared strategic language across the bank"
   }
 ]

@@ -29,6 +29,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -153,12 +218,498 @@ Karen Hovhannisyan
   <p class="date">2026-03-20</p>
 </section>
 <section>
-<section id="hello" class="title-slide slide level1 center">
-<h1>Hello</h1>
+<section id="vision-for-the-chief-data-officer-function-at-ardshinbank" class="title-slide slide level1 center">
+<h1>Vision for the Chief Data Officer Function at Ardshinbank</h1>
 
 </section>
-<section id="test" class="slide level2">
-<h2>Test</h2>
+<section id="objective" class="slide level2 smaller">
+<h2>Objective</h2>
+<p>To establish data as a <strong>strategic banking asset</strong> that strengthens regulatory compliance, improves operational efficiency, enables trusted decision-making, and accelerates AI-driven innovation across Ardshinbank.</p>
+</section>
+<section id="context-why-this-matters-now" class="slide level2 smaller">
+<h2>Context: Why This Matters Now</h2>
+<p>Ardshinbank is operating at significant scale, with a broad branch network, diversified banking model, and growing digital footprint. This creates a clear need for a stronger enterprise data function that can unify governance, architecture, analytics, and AI under one strategic direction.</p>
+<ul>
+<li><strong>Scale requires control</strong></li>
+<li><strong>Digital growth requires stronger data foundations</strong></li>
+<li><strong>Advanced analytics requires trusted, governed data</strong></li>
+<li><strong>AI adoption requires enterprise-grade model governance</strong></li>
+<li><strong>Business units need one reliable version of the truth</strong></li>
+</ul>
+</section>
+<section id="my-vision-in-one-sentence" class="slide level2 smaller">
+<h2>My Vision in One Sentence</h2>
+<p>Build a <strong>trusted, governed, scalable, and business-driven data organization</strong> that connects data governance, enterprise data platforms, analytics, and data science into one operating model for the bank.</p>
+</section></section>
+<section>
+<section id="why-a-bank-needs-a-strong-data-function" class="title-slide slide level1 center">
+<h1>Why a Bank Needs a Strong Data Function</h1>
+
+</section>
+<section id="banking-is-different" class="slide level2 smaller">
+<h2>Banking is Different</h2>
+<p>Compared with many other industries, banking requires the data function to support:</p>
+<ul>
+<li><strong>Regulatory compliance</strong></li>
+<li><strong>Data lineage and auditability</strong></li>
+<li><strong>Confidentiality and controlled access</strong></li>
+<li><strong>Risk transparency</strong></li>
+<li><strong>Near real-time operational visibility</strong></li>
+<li><strong>Consistent KPI definitions across the bank</strong></li>
+<li><strong>Trusted AI adoption with model controls</strong></li>
+</ul>
+</section>
+<section id="the-mandate-of-the-cdo" class="slide level2 smaller">
+<h2>The Mandate of the CDO</h2>
+<p>The CDO function should unify four responsibilities:</p>
+<ol type="1">
+<li><p><strong>Data Governance</strong><br>
+ownership, policies and standards, metadata, data quality, lifecycle management</p></li>
+<li><p><strong>Enterprise Data Platform</strong><br>
+DWH, Data Lake, integration with core and digital systems, scalable and secure architecture</p></li>
+<li><p><strong>Analytics &amp; BI</strong><br>
+standardized KPIs, management dashboards, self-service analytics, reliable reporting</p></li>
+<li><p><strong>Data Science &amp; AI</strong><br>
+use-case prioritization, experimentation, validation, deployment, monitoring</p></li>
+</ol>
+</section></section>
+<section>
+<section id="strategic-north-star" class="title-slide slide level1 center">
+<h1>Strategic North Star</h1>
+
+</section>
+<section id="what-success-looks-like" class="slide level2 smaller">
+<h2>What Success Looks Like</h2>
+<ul>
+<li>One governed enterprise data platform</li>
+<li>One common KPI language across departments</li>
+<li>One data governance framework with clear ownership</li>
+<li>Trusted, auditable, high-quality data pipelines</li>
+<li>Self-service analytics for business teams</li>
+<li>Scalable model lifecycle management</li>
+<li>Controlled rollout of AI and machine learning in high-value domains</li>
+<li>A strong <span style="color:red;">value-driven culture</span> where data is embedded in day-to-day decisions</li>
+</ul>
+</section></section>
+<section>
+<section id="current-challenges-to-solve" class="title-slide slide level1 center">
+<h1>Current Challenges to Solve</h1>
+
+</section>
+<section id="likely-enterprise-data-gaps" class="slide level2 smaller">
+<h2>Likely Enterprise Data Gaps</h2>
+<ul>
+<li>Fragmented data ownership across functions</li>
+<li>Inconsistent KPI definitions between departments</li>
+<li>Reporting duplication and overlapping dashboards</li>
+<li>Limited metadata, lineage, and data quality visibility</li>
+<li>Weak linkage between business priorities and analytical delivery</li>
+<li>High dependency on technical teams for recurring reporting</li>
+<li>Advanced analytics not yet industrialized end-to-end</li>
+<li>AI use cases may emerge faster than governance and controls</li>
+</ul>
+</section>
+<section id="what-this-means-in-banking" class="slide level2 smaller">
+<h2>What This Means in Banking</h2>
+<p>Without a strong CDO function, the bank risks:</p>
+<ul>
+<li>slower decision-making</li>
+<li>reduced trust in reports</li>
+<li>duplicated effort across teams</li>
+<li>regulatory and audit exposure</li>
+<li>weaker prioritization of analytics investments</li>
+<li>delayed industrialization of AI use cases</li>
+</ul>
+</section></section>
+<section>
+<section id="strategic-response" class="title-slide slide level1 center">
+<h1>Strategic Response</h1>
+
+</section>
+<section id="my-approach" class="slide level2 smaller">
+<h2>My Approach</h2>
+<p>I would build the data function around <strong>three integrated pillars</strong>:</p>
+<ul>
+<li><p><strong>Trust</strong><br>
+enterprise data governance, ownership, quality controls, metadata, lineage, access controls</p></li>
+<li><p><strong>Scale</strong><br>
+modern DWH and Data Lake architecture, reusable data products, governed semantic layer, scalable pipelines</p></li>
+<li><p><strong>Value</strong><br>
+standardized reporting, self-service analytics, high-value AI use cases, measurable business impact</p></li>
+</ul>
+</section></section>
+<section>
+<section id="target-operating-model" class="title-slide slide level1 center">
+<h1>Target Operating Model</h1>
+
+</section>
+<section id="cdo-operating-model" class="slide level2 smaller">
+<h2>CDO Operating Model</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>flowchart TB</span>
+<span id="cb1-2"><a></a>    A[Chief Data Officer] --&gt; B[Data Governance]</span>
+<span id="cb1-3"><a></a>    A --&gt; C[Enterprise Data Platform]</span>
+<span id="cb1-4"><a></a>    A --&gt; D[Analytics &amp; BI]</span>
+<span id="cb1-5"><a></a>    A --&gt; E[Data Science &amp; AI]</span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a>    B --&gt; B1[Data ownership]</span>
+<span id="cb1-8"><a></a>    B --&gt; B2[Policies &amp; standards]</span>
+<span id="cb1-9"><a></a>    B --&gt; B3[Data quality]</span>
+<span id="cb1-10"><a></a>    B --&gt; B4[Metadata &amp; lineage]</span>
+<span id="cb1-11"><a></a>    B --&gt; B5[Data access controls]</span>
+<span id="cb1-12"><a></a></span>
+<span id="cb1-13"><a></a>    C --&gt; C1[Data Warehouse]</span>
+<span id="cb1-14"><a></a>    C --&gt; C2[Data Lake]</span>
+<span id="cb1-15"><a></a>    C --&gt; C3[Integration layer]</span>
+<span id="cb1-16"><a></a>    C --&gt; C4[Core banking &amp; digital systems]</span>
+<span id="cb1-17"><a></a>    C --&gt; C5[Security &amp; reliability]</span>
+<span id="cb1-18"><a></a></span>
+<span id="cb1-19"><a></a>    D --&gt; D1[Executive dashboards]</span>
+<span id="cb1-20"><a></a>    D --&gt; D2[Standardized KPIs]</span>
+<span id="cb1-21"><a></a>    D --&gt; D3[Self-service analytics]</span>
+<span id="cb1-22"><a></a>    D --&gt; D4[Regulatory &amp; management reporting]</span>
+<span id="cb1-23"><a></a></span>
+<span id="cb1-24"><a></a>    E --&gt; E1[Use-case portfolio]</span>
+<span id="cb1-25"><a></a>    E --&gt; E2[ML models]</span>
+<span id="cb1-26"><a></a>    E --&gt; E3[Model validation]</span>
+<span id="cb1-27"><a></a>    E --&gt; E4[MLOps &amp; monitoring]</span>
+<span id="cb1-28"><a></a>    E --&gt; E5[Responsible AI]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section></section>
+<section>
+<section id="enterprise-data-architecture" class="title-slide slide level1 center">
+<h1>Enterprise Data Architecture</h1>
+
+</section>
+<section id="target-architecture" class="slide level2 smaller">
+<h2>Target Architecture</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>flowchart LR</span>
+<span id="cb2-2"><a></a>    A[Core Banking Systems] --&gt; X[Integration &amp; Ingestion Layer]</span>
+<span id="cb2-3"><a></a>    B[Cards &amp; Payments] --&gt; X</span>
+<span id="cb2-4"><a></a>    C[CRM &amp; Customer Channels] --&gt; X</span>
+<span id="cb2-5"><a></a>    D[Mobile / Online Banking] --&gt; X</span>
+<span id="cb2-6"><a></a>    E[Risk &amp; Finance Systems] --&gt; X</span>
+<span id="cb2-7"><a></a>    F[External / Regulatory / Market Data] --&gt; X</span>
+<span id="cb2-8"><a></a></span>
+<span id="cb2-9"><a></a>    X --&gt; G[Raw Zone / Data Lake]</span>
+<span id="cb2-10"><a></a>    X --&gt; H[Operational Data Store]</span>
+<span id="cb2-11"><a></a></span>
+<span id="cb2-12"><a></a>    G --&gt; I[Curated Data Layer]</span>
+<span id="cb2-13"><a></a>    H --&gt; I</span>
+<span id="cb2-14"><a></a></span>
+<span id="cb2-15"><a></a>    I --&gt; J[Enterprise Data Warehouse]</span>
+<span id="cb2-16"><a></a>    I --&gt; K[Feature Store / Analytical Sandbox]</span>
+<span id="cb2-17"><a></a></span>
+<span id="cb2-18"><a></a>    J --&gt; L[Semantic Layer / KPI Layer]</span>
+<span id="cb2-19"><a></a>    L --&gt; M[BI Dashboards]</span>
+<span id="cb2-20"><a></a>    L --&gt; N[Self-Service Analytics]</span>
+<span id="cb2-21"><a></a></span>
+<span id="cb2-22"><a></a>    K --&gt; O[ML / AI Models]</span>
+<span id="cb2-23"><a></a>    O --&gt; P[Decisioning / Alerts / Scoring]</span>
+<span id="cb2-24"><a></a></span>
+<span id="cb2-25"><a></a>    Q[Data Governance] --- G</span>
+<span id="cb2-26"><a></a>    Q --- I</span>
+<span id="cb2-27"><a></a>    Q --- J</span>
+<span id="cb2-28"><a></a>    Q --- K</span>
+<span id="cb2-29"><a></a>    Q --- L</span>
+<span id="cb2-30"><a></a></span>
+<span id="cb2-31"><a></a>    R[Security / Privacy / Access Control] --- X</span>
+<span id="cb2-32"><a></a>    R --- G</span>
+<span id="cb2-33"><a></a>    R --- J</span>
+<span id="cb2-34"><a></a>    R --- O</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="architecture-principles" class="slide level2 smaller">
+<h2>Architecture Principles</h2>
+<ul>
+<li><strong>Governed by design</strong></li>
+<li><strong>Security by design</strong></li>
+<li><strong>Reusable data products</strong></li>
+<li><strong>Standardized semantic layer</strong></li>
+<li><strong>Traceable lineage</strong></li>
+<li><strong>Scalable for both reporting and AI</strong></li>
+<li><strong>Separation of raw, curated, and consumption layers</strong></li>
+<li><strong>Controlled access based on data sensitivity</strong></li>
+</ul>
+</section></section>
+<section>
+<section id="governance-model" class="title-slide slide level1 center">
+<h1>Governance Model</h1>
+
+</section>
+<section id="data-governance-should-not-be-bureaucracy" class="slide level2 smaller">
+<h2>Data Governance Should Not Be Bureaucracy</h2>
+<p>The goal is not to slow the bank down.<br>
+The goal is to make data <strong>trusted, reusable, and scalable</strong>.</p>
+<ul>
+<li>define data domains and owners</li>
+<li>implement data quality controls for critical datasets</li>
+<li>create enterprise business glossary and KPI dictionary</li>
+<li>establish metadata and lineage standards</li>
+<li>formalize data access approval and monitoring</li>
+<li>define retention and lifecycle rules</li>
+<li>connect governance to delivery, not separate from it</li>
+</ul>
+</section>
+<section id="governance-journey" class="slide level2 smaller">
+<h2>Governance Journey</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a></a>journey</span>
+<span id="cb3-2"><a></a>    title Data Governance Maturity Journey</span>
+<span id="cb3-3"><a></a>    section Foundation</span>
+<span id="cb3-4"><a></a>      Identify critical data domains: 4: CDO</span>
+<span id="cb3-5"><a></a>      Appoint data owners and stewards: 4: CDO, Business</span>
+<span id="cb3-6"><a></a>      Define priority policies and standards: 4: CDO, Risk, Security</span>
+<span id="cb3-7"><a></a>    section Control</span>
+<span id="cb3-8"><a></a>      Launch data quality controls: 5: Data Governance, Engineering</span>
+<span id="cb3-9"><a></a>      Build metadata and lineage visibility: 4: Governance, Engineering</span>
+<span id="cb3-10"><a></a>      Standardize KPI definitions: 5: Analytics, Business</span>
+<span id="cb3-11"><a></a>    section Scale</span>
+<span id="cb3-12"><a></a>      Embed governance into delivery pipelines: 5: Engineering, Analytics</span>
+<span id="cb3-13"><a></a>      Introduce access monitoring and auditability: 4: Security, Governance</span>
+<span id="cb3-14"><a></a>      Expand coverage across departments: 5: CDO, Business</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section></section>
+<section>
+<section id="analytics-bi-vision" class="title-slide slide level1 center">
+<h1>Analytics &amp; BI Vision</h1>
+
+</section>
+<section id="from-reporting-to-decision-intelligence" class="slide level2 smaller">
+<h2>From Reporting to Decision Intelligence</h2>
+<p>The analytics function should evolve from producing reports to enabling decisions.</p>
+<ul>
+<li>remove overlapping and conflicting dashboards</li>
+<li>create a single KPI layer for enterprise reporting</li>
+<li>attach definitions and data dictionary to reports</li>
+<li>prioritize management dashboards over static tables</li>
+<li>increase self-service for business users with governed access</li>
+<li>align analytics backlog with strategic business priorities</li>
+<li>shift from reactive to proactive insight generation</li>
+</ul>
+</section>
+<section id="reporting-principles" class="slide level2 smaller">
+<h2>Reporting Principles</h2>
+<ul>
+<li><strong>One KPI, one definition</strong></li>
+<li><strong>One trusted source</strong></li>
+<li><strong>Dashboards over manual table-based reporting where appropriate</strong></li>
+<li><strong>Business relevance over technical output</strong></li>
+<li><strong>Proactive insight generation, not only data delivery</strong></li>
+</ul>
+</section></section>
+<section>
+<section id="data-science-ai-vision" class="title-slide slide level1 center">
+<h1>Data Science &amp; AI Vision</h1>
+
+</section>
+<section id="ai-adoption-must-be-pragmatic-and-controlled" class="slide level2 smaller">
+<h2>AI Adoption Must Be Pragmatic and Controlled</h2>
+<p>AI in banking should focus on <strong>clear value, strong controls, and measurable outcomes</strong>, not experimentation for its own sake.</p>
+<ul>
+<li>customer propensity and next-best-action</li>
+<li>churn / attrition prevention</li>
+<li>cross-sell and upsell recommendation</li>
+<li>fraud and anomaly detection</li>
+<li>collections optimization</li>
+<li>branch and channel performance optimization</li>
+<li>service quality prediction</li>
+<li>document intelligence and internal process automation</li>
+</ul>
+</section>
+<section id="model-lifecycle" class="slide level2 smaller">
+<h2>Model Lifecycle</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>flowchart LR</span>
+<span id="cb4-2"><a></a>    A[Business Problem] --&gt; B[Use-Case Prioritization]</span>
+<span id="cb4-3"><a></a>    B --&gt; C[Data Readiness Assessment]</span>
+<span id="cb4-4"><a></a>    C --&gt; D[Experimentation]</span>
+<span id="cb4-5"><a></a>    D --&gt; E[Validation]</span>
+<span id="cb4-6"><a></a>    E --&gt; F[Deployment]</span>
+<span id="cb4-7"><a></a>    F --&gt; G[Monitoring]</span>
+<span id="cb4-8"><a></a>    G --&gt; H[Retraining / Retirement]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="principles-for-ai-adoption" class="slide level2 smaller">
+<h2>Principles for AI Adoption</h2>
+<ul>
+<li>start with high-value, high-feasibility use cases</li>
+<li>ensure explainability where needed</li>
+<li>implement model monitoring and periodic review</li>
+<li>align with risk, compliance, and security teams</li>
+<li>treat model governance as part of enterprise governance</li>
+<li>build reusable ML pipelines rather than isolated prototypes</li>
+</ul>
+</section></section>
+<section>
+<section id="business-partnership-model" class="title-slide slide level1 center">
+<h1>Business Partnership Model</h1>
+
+</section>
+<section id="the-cdo-function-must-be-deeply-embedded" class="slide level2 smaller">
+<h2>The CDO Function Must Be Deeply Embedded</h2>
+<p>The data office should act as a strategic partner to:</p>
+<ul>
+<li>Retail Banking</li>
+<li>SME / Corporate Banking</li>
+<li>Risk</li>
+<li>Finance</li>
+<li>Operations</li>
+<li>Digital Channels</li>
+<li>IT / Enterprise Architecture</li>
+<li>Information Security</li>
+<li>Internal Audit</li>
+<li>HR</li>
+</ul>
+</section>
+<section id="engagement-model" class="slide level2 smaller">
+<h2>Engagement Model</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a></a>flowchart LR</span>
+<span id="cb5-2"><a></a>    A[Business Units] --&gt; B[Demand Intake &amp; Prioritization]</span>
+<span id="cb5-3"><a></a>    B --&gt; C[CDO Office Portfolio Management]</span>
+<span id="cb5-4"><a></a>    C --&gt; D[Analytics / Engineering / DS Delivery]</span>
+<span id="cb5-5"><a></a>    D --&gt; E[Dashboards / Models / Data Products]</span>
+<span id="cb5-6"><a></a>    E --&gt; F[Adoption &amp; Business Impact Tracking]</span>
+<span id="cb5-7"><a></a>    F --&gt; B</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section></section>
+<section>
+<section id="team-design" class="title-slide slide level1 center">
+<h1>Team Design</h1>
+
+</section>
+<section id="recommended-core-structure" class="slide level2 smaller">
+<h2>Recommended Core Structure</h2>
+<ul>
+<li><strong>Chief Data Officer</strong></li>
+<li><strong>Head of Data Governance</strong></li>
+<li><strong>Head of Data Platform / Engineering</strong></li>
+<li><strong>Head of Analytics &amp; BI</strong></li>
+<li><strong>Head of Data Science / AI</strong></li>
+<li>data governance specialists</li>
+<li>analytics engineers</li>
+<li>data engineers</li>
+<li>BI developers / analysts</li>
+<li>data scientists</li>
+<li>ML / MLOps capability</li>
+<li>data architects</li>
+<li>business-facing analytics leads</li>
+</ul>
+</section>
+<section id="extended-model" class="slide level2 smaller">
+<h2>Extended Model</h2>
+<ul>
+<li><strong>Data Owners</strong> in business and control functions</li>
+<li><strong>Data Stewards</strong> for key domains</li>
+<li><strong>Analytics Champions / Ambassadors</strong> across departments</li>
+</ul>
+</section></section>
+<section>
+<section id="roadmap" class="title-slide slide level1 center">
+<h1>Roadmap</h1>
+
+</section>
+<section id="phase-transformation-roadmap" class="slide level2 smaller">
+<h2>3-Phase Transformation Roadmap</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>timeline</span>
+<span id="cb6-2"><a></a>    title CDO Transformation Roadmap</span>
+<span id="cb6-3"><a></a>    Q1-Q2 2026 : Assess current state</span>
+<span id="cb6-4"><a></a>               : Define target operating model</span>
+<span id="cb6-5"><a></a>               : Identify priority data domains</span>
+<span id="cb6-6"><a></a>               : Launch governance framework</span>
+<span id="cb6-7"><a></a>               : Map critical KPIs and reports</span>
+<span id="cb6-8"><a></a>    Q3-Q4 2026 : Stabilize DWH / Lake priorities</span>
+<span id="cb6-9"><a></a>               : Standardize KPI layer</span>
+<span id="cb6-10"><a></a>               : Launch executive dashboards</span>
+<span id="cb6-11"><a></a>               : Establish data quality controls</span>
+<span id="cb6-12"><a></a>               : Prioritize first AI use cases</span>
+<span id="cb6-13"><a></a>    2027 : Expand governed self-service analytics</span>
+<span id="cb6-14"><a></a>         : Scale metadata and lineage</span>
+<span id="cb6-15"><a></a>         : Industrialize ML lifecycle</span>
+<span id="cb6-16"><a></a>         : Deliver reusable data products</span>
+<span id="cb6-17"><a></a>         : Reduce duplicate reporting</span>
+<span id="cb6-18"><a></a>    2028 : Mature enterprise data platform</span>
+<span id="cb6-19"><a></a>         : Expand AI in production</span>
+<span id="cb6-20"><a></a>         : Embed data culture bank-wide</span>
+<span id="cb6-21"><a></a>         : Operate with one trusted analytical foundation</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="first-100-days" class="slide level2 smaller">
+<h2>First 100 Days</h2>
+<ul>
+<li>assess architecture, reporting landscape, data quality, governance maturity</li>
+<li>identify critical pain points and quick wins</li>
+<li>map key stakeholders and existing delivery model</li>
+<li>define top enterprise KPIs</li>
+<li>identify critical data domains</li>
+<li>select highest-value use cases for analytics and AI</li>
+<li>assign ownership and stewardship for priority domains</li>
+<li>launch KPI dictionary and metadata baseline</li>
+<li>fix one high-visibility reporting inconsistency</li>
+<li>implement first critical data quality control set</li>
+</ul>
+</section></section>
+<section>
+<section id="cultural-transformation" class="title-slide slide level1 center">
+<h1>Cultural Transformation</h1>
+
+</section>
+<section id="toward-a-value-driven-culture" class="slide level2 smaller">
+<h2>Toward a <span style="color:red;">value-driven culture</span></h2>
+<ul>
+<li><strong>Creating internal demand for trusted data products</strong></li>
+<li><strong>Ensuring data consistency and accessibility</strong></li>
+<li><strong>Conducting regular stakeholder meetings to align analytics with business demands</strong></li>
+<li><strong>Building proactive reporting and alerting</strong></li>
+<li><strong>Organizing workshops with relevant departments</strong></li>
+<li><strong>Running cross-functional analytical projects</strong></li>
+<li><strong>Promoting continuous learning</strong></li>
+<li><strong>Making data ownership part of management accountability</strong></li>
+</ul>
+</section>
+<section id="the-cultural-shift-i-want-to-create" class="slide level2 smaller">
+<h2>The Cultural Shift I Want to Create</h2>
+<p>From:</p>
+<ul>
+<li>report request culture</li>
+<li>siloed data ownership</li>
+<li>fragmented KPIs</li>
+<li>reactive analytics</li>
+</ul>
+<p>To:</p>
+<ul>
+<li>product mindset for data</li>
+<li>enterprise ownership</li>
+<li>one KPI language</li>
+<li>proactive and predictive decision-making</li>
+</ul>
+</section></section>
+<section>
+<section id="success-measurement" class="title-slide slide level1 center">
+<h1>Success Measurement</h1>
+
+</section>
+<section id="success-metrics-for-the-cdo-function" class="slide level2 smaller">
+<h2>Success Metrics for the CDO Function</h2>
+<ul>
+<li>% of critical data elements with owner assigned</li>
+<li>% of priority reports linked to KPI dictionary</li>
+<li>data quality issue resolution time</li>
+<li>metadata / lineage coverage for critical datasets</li>
+<li>pipeline reliability</li>
+<li>data availability SLA</li>
+<li>reduction in duplicate reports</li>
+<li>dashboard adoption by business units</li>
+<li>number of use cases in production</li>
+<li>business value delivered by models</li>
+</ul>
+</section></section>
+<section>
+<section id="closing" class="title-slide slide level1 center">
+<h1>Closing</h1>
+
+</section>
+<section id="final-thought" class="slide level2 smaller">
+<h2>Final Thought</h2>
+<p>My vision is to help Ardshinbank build a data function that is not only technically strong, but institutionally trusted.</p>
+<ul>
+<li>governance strengthens delivery</li>
+<li>architecture enables scale</li>
+<li>analytics support decisions</li>
+<li>AI creates measurable value</li>
+<li>data becomes a shared strategic language across the bank</li>
+</ul>
 
 
 </section></section>
