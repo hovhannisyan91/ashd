@@ -2,92 +2,169 @@
   {
     "objectID": "index.html#objective",
     "href": "index.html#objective",
-    "title": "Data Vision",
+    "title": "DataOps",
     "section": "Objective",
-    "text": "Objective\nEstablish data as a strategic banking asset by:\n\nEnsuring regulatory compliance\n\nImproving operational efficiency\n\nEnabling trusted decision-making\n\nAccelerating AI-driven innovation across the bank"
+    "text": "Objective\n\nTransform data into a strategic banking asset\n\nEliminate data silos and enable integrated decision-making\n\nBuild a scalable, governed, and AI-ready organization"
   },
   {
-    "objectID": "index.html#my-vision",
-    "href": "index.html#my-vision",
-    "title": "Data Vision",
-    "section": "My Vision",
-    "text": "My Vision\nBuild a trusted, governed, scalable, and business-driven data organization that connects:\n\nData Governance\n\nEnterprise Data Platform\n\nAnalytics & Data Science\n\n\none operating model for the bank"
+    "objectID": "index.html#the-core-problem-data-silos",
+    "href": "index.html#the-core-problem-data-silos",
+    "title": "DataOps",
+    "section": "The Core Problem: Data Silos",
+    "text": "The Core Problem: Data Silos\n\nFragmented systems across:\n\nCore banking\n\nCRM\n\nRisk\n\nMarketing\n\nOther Sources\n\nConsequences:\n\nInconsistent KPIs\n\nSlow decision-making\n\nPoor customer experience\n\nLimited AI capability\nMissing Single Source of Truth"
   },
   {
-    "objectID": "index.html#banking-is-different",
-    "href": "index.html#banking-is-different",
-    "title": "Data Vision",
-    "section": "Banking is Different",
-    "text": "Banking is Different\nCompared with other industries, banking data must support:\n\n\nRegulatory compliance\n\nData lineage and auditability\n\nConfidentiality and controlled access\n\nRisk transparency\n\nNear real-time operational visibility\n\nConsistent KPI definitions"
+    "objectID": "index.html#data-silos-in-banking",
+    "href": "index.html#data-silos-in-banking",
+    "title": "DataOps",
+    "section": "Data Silos in Banking",
+    "text": "Data Silos in Banking"
   },
   {
-    "objectID": "index.html#high-level-architecture",
-    "href": "index.html#high-level-architecture",
-    "title": "Data Vision",
-    "section": "High-Level Architecture",
-    "text": "High-Level Architecture\n\n\n\n\n\nflowchart LR\n\nA[Data Sources] --&gt; B[Data Platform]\nB --&gt; C[Data Consumption]\n\nD[Data Governance Layer] --- A\nD --- B\nD --- C\n\nE[API / Services Layer] --- A\nE --- B\nE --- C"
+    "objectID": "index.html#data-silo-management",
+    "href": "index.html#data-silo-management",
+    "title": "DataOps",
+    "section": "Data Silo management",
+    "text": "Data Silo management"
   },
   {
-    "objectID": "index.html#block-1-data-sources-core-systems",
-    "href": "index.html#block-1-data-sources-core-systems",
-    "title": "Data Vision",
-    "section": "Block 1 | Data Sources & Core Systems",
-    "text": "Block 1 | Data Sources & Core Systems\n\n\n\n\n\nflowchart LR\n\nA1[Core Banking Systems] --&gt; B[Ingestion Layer]\nA2[CRM Systems] --&gt; B\nA3[Payments Systems] --&gt; B\nA4[Digital Channels] --&gt; B\nA5[External Data Sources] --&gt; B\nA6[Streaming Data] --&gt; B"
+    "objectID": "index.html#why-silos-persist",
+    "href": "index.html#why-silos-persist",
+    "title": "DataOps",
+    "section": "Why Silos Persist",
+    "text": "Why Silos Persist\n\nOrganizational structure (departmental ownership)\n\nLack of governance and ownership\n\nTechnology fragmentation\n\nCultural resistance to sharing data"
   },
   {
-    "objectID": "index.html#components",
-    "href": "index.html#components",
-    "title": "Data Vision",
-    "section": "Components",
-    "text": "Components\n\nCore Banking (accounts, transactions)\n\nCRM & Customer Data\n\nPayments & Cards Systems\n\nMobile / Web Applications\n\nExternal APIs (credit bureau, fintechs)\n\nEvent Streams (real-time transactions)"
+    "objectID": "index.html#cultural",
+    "href": "index.html#cultural",
+    "title": "DataOps",
+    "section": "Cultural",
+    "text": "Cultural\n\nData exists, but is not trusted or shared\n\n\\[\\downarrow\\]\n\n\n\n\nExperience-driven\n\nNot data-driven\n\n\n\n\\[\\downarrow\\]\n\n\n\nTeams optimize locally, not globally"
   },
   {
-    "objectID": "index.html#block-2-data-platform-lakehouse",
-    "href": "index.html#block-2-data-platform-lakehouse",
-    "title": "Data Vision",
-    "section": "Block 2 | Data Platform (Lakehouse)",
-    "text": "Block 2 | Data Platform (Lakehouse)\n\n\n\n\n\nflowchart LR\n\nB1[Ingestion Layer] --&gt; B2[Raw Data Lake]\nB2 --&gt; B3[Processing Layer]\nB3 --&gt; B4[Data Warehouse]\nB4 --&gt; B5[Data Marts / Feature Store]"
+    "objectID": "index.html#the-role-of-the-cdo",
+    "href": "index.html#the-role-of-the-cdo",
+    "title": "DataOps",
+    "section": "The Role of the CDO",
+    "text": "The Role of the CDO\nBridge:\n\nBusiness\n\nTechnology\n\nGovernance\n\n\nShift organization from: Siloed thinking \\(\\rightarrow\\) Integrated, data-driven culture"
   },
   {
-    "objectID": "index.html#layers",
-    "href": "index.html#layers",
-    "title": "Data Vision",
-    "section": "Layers",
-    "text": "Layers\nIngestion\n\nBatch ETL pipelines\n\nStreaming ingestion (Kafka)\n\nRaw Layer\n\nUnstructured & semi-structured data\n\nImmutable storage\n\n3. Processing Layer\n\nData transformations\n\nStandardization & cleansing\n\n4. Data Warehouse\n\nStructured, curated datasets\n\nBusiness-ready data\n\n5. Serving Layer\n\nData marts\n\nFeature stores for ML\n\nData Analytics"
+    "objectID": "index.html#change-agent-model",
+    "href": "index.html#change-agent-model",
+    "title": "DataOps",
+    "section": "Change Agent Model",
+    "text": "Change Agent Model"
   },
   {
-    "objectID": "index.html#block-3-data-governance-layer",
-    "href": "index.html#block-3-data-governance-layer",
-    "title": "Data Vision",
-    "section": "Block 3 | Data Governance Layer",
-    "text": "Block 3 | Data Governance Layer\n\n\n\n\n\nflowchart TB\n\nG1[Data Quality]\nG2[Data Lineage]\nG3[Metadata Management]\nG4[Master Data Management]\nG5[Security & Access Control]\nG6[Regulatory Compliance]\nG7[Audit & Monitoring]"
+    "objectID": "index.html#from-silos-to-integrated-bank",
+    "href": "index.html#from-silos-to-integrated-bank",
+    "title": "DataOps",
+    "section": "From Silos to Integrated Bank",
+    "text": "From Silos to Integrated Bank\n\n\n\n\n\n\nflowchart LR\n    A[Siloed Systems] --&gt; B[Integrated Data Platform]\n    B --&gt; C[Trusted Data]\n    C --&gt; D[Analytics & AI]\n    D --&gt; E[Business Value]"
   },
   {
-    "objectID": "index.html#capabilities",
-    "href": "index.html#capabilities",
-    "title": "Data Vision",
-    "section": "Capabilities",
-    "text": "Capabilities\n\nData validation and reconciliation\n\nEnd-to-end lineage tracking\n\nCentralized metadata catalog\n\nGolden customer/product records (MDM)\n\nRole-based access control\n\nCompliance (GDPR, Basel, etc.)\n\nFull auditability"
+    "objectID": "index.html#data-strategy-model",
+    "href": "index.html#data-strategy-model",
+    "title": "DataOps",
+    "section": "Data Strategy Model",
+    "text": "Data Strategy Model\n\nCombine:\n\nExecution Steps (6-step framework)\n\nFoundational Pillars (4 pillars)\n\n\nGoal: &gt; Move from strategy → execution → culture adoption"
   },
   {
-    "objectID": "index.html#block-4-analytics-data-science-ai",
-    "href": "index.html#block-4-analytics-data-science-ai",
-    "title": "Data Vision",
-    "section": "Block 4 | Analytics, Data Science & AI",
-    "text": "Block 4 | Analytics, Data Science & AI\n\n\n\n\n\nflowchart LR\n\nC1[BI & Reporting] --&gt; C5[Decision Layer]\nC2[Advanced Analytics] --&gt; C5\nC3[Data Science Models] --&gt; C5\nC4[AI Systems] --&gt; C5"
+    "objectID": "index.html#integrated-framework",
+    "href": "index.html#integrated-framework",
+    "title": "DataOps",
+    "section": "Integrated Framework",
+    "text": "Integrated Framework\n\n\n\n\n\nflowchart TB\n\n    subgraph Steps\n        A[Listen]\n        B[Assess]\n        C[Apply]\n        D[Test]\n        E[Execute]\n        F[Scale]\n    end\n\n    subgraph Pillars\n        P1[Data]\n        P2[Technology]\n        P3[Workflow]\n        P4[Culture]\n    end\n\n    A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F\n\n    P1 --- A\n    P2 --- C\n    P3 --- E\n    P4 --- F"
   },
   {
-    "objectID": "index.html#layers-1",
-    "href": "index.html#layers-1",
-    "title": "Data Vision",
-    "section": "Layers",
-    "text": "Layers\n1. BI & Reporting\n\nDashboards (Tableau, Power BI)\nRegulatory reporting\n\n2. Advanced Analytics\n\nSQL-based analytics\nPython-based analysis\n\n3. Data Science\n\nChurn prediction\nFraud detection\nCredit risk models\n\n4. AI Layer\n\nRecommendation systems\nLLM-based assistants\n\n5. Decision Layer\n\nCampaign management\nAutomation systems\nAPI-driven decisioning"
+    "objectID": "index.html#listen-data",
+    "href": "index.html#listen-data",
+    "title": "DataOps",
+    "section": "Listen Data",
+    "text": "Listen Data\n\nAlign with business objectives:\n\nRevenue\n\nRisk\n\nEfficiency\n\nIdentify critical data domains:\n\nCustomer\n\nTransactions\n\nRisk"
   },
   {
-    "objectID": "index.html#components-1",
-    "href": "index.html#components-1",
-    "title": "Data Vision",
-    "section": "Components",
-    "text": "Components\n\nOpen Banking APIs\n\nInternal data services\n\nMicroservices architecture\n\nFintech integrations"
+    "objectID": "index.html#assess-technology",
+    "href": "index.html#assess-technology",
+    "title": "DataOps",
+    "section": "Assess + Technology",
+    "text": "Assess + Technology\n\nEvaluate:\n\nCurrent architecture\n\nData pipelines\n\nIntegration gaps\n\nIdentify:\n\nLegacy constraints\n\nScalability limitations"
+  },
+  {
+    "objectID": "index.html#apply-workflow",
+    "href": "index.html#apply-workflow",
+    "title": "DataOps",
+    "section": "Apply + Workflow",
+    "text": "Apply + Workflow\n\nEmbed data into:\n\nCredit decisioning\n\nCustomer journeys\n\nMarketing campaigns\n\n\nMove from: Reporting \\(\\rightarrow\\) Operational intelligence"
+  },
+  {
+    "objectID": "index.html#test-governance",
+    "href": "index.html#test-governance",
+    "title": "DataOps",
+    "section": "Test + Governance",
+    "text": "Test + Governance\n\nEnsure:\n\nData quality\n\nSecurity\n\nCompliance\n\nDefine:\n\nOwnership\n\nPolicies\n\nControls"
+  },
+  {
+    "objectID": "index.html#execute-and-value-delivery",
+    "href": "index.html#execute-and-value-delivery",
+    "title": "DataOps",
+    "section": "Execute and Value Delivery",
+    "text": "Execute and Value Delivery\n\nBuild MVPs (small gains):\n\nChurn prediction\n\nCampaign targeting\n\nRisk scoring\nAutomations\n\n\nDeliver:\n\nFast, measurable impact"
+  },
+  {
+    "objectID": "index.html#scale-culture",
+    "href": "index.html#scale-culture",
+    "title": "DataOps",
+    "section": "Scale + Culture",
+    "text": "Scale + Culture\n\nExpand successful use cases\n\nEnable:\n\nData literacy\n\nSelf-service analytics\n\n\nCreate:\n\nOrganization-wide adoption"
+  },
+  {
+    "objectID": "index.html#the-four-pillars-foundation",
+    "href": "index.html#the-four-pillars-foundation",
+    "title": "DataOps",
+    "section": "The Four Pillars (Foundation)",
+    "text": "The Four Pillars (Foundation)\n\nData: \\(\\rightarrow\\) Trusted and high-quality\n\nTechnology: \\(\\rightarrow\\) Scalable and integrated\n\nWorkflow: \\(\\rightarrow\\) Embedded into operations\n\nCulture: \\(\\rightarrow\\) Data-driven mindset"
+  },
+  {
+    "objectID": "index.html#cultural-transformation-journey",
+    "href": "index.html#cultural-transformation-journey",
+    "title": "DataOps",
+    "section": "Cultural Transformation Journey",
+    "text": "Cultural Transformation Journey\n\n\n\n\n\nflowchart LR\n    A[Data Awareness] --&gt; B[Trust in Data]\n    B --&gt; C[Adoption]\n    C --&gt; D[Data-Driven Decisions]"
+  },
+  {
+    "objectID": "index.html#success-requires-alignment",
+    "href": "index.html#success-requires-alignment",
+    "title": "DataOps",
+    "section": "Success Requires Alignment",
+    "text": "Success Requires Alignment\n\nData, Technology, Workflow, Culture must move in lockstep\nFailure occurs when:\n\nTech advances faster than culture\n\nData exists without governance"
+  },
+  {
+    "objectID": "index.html#target-architecture-simplified",
+    "href": "index.html#target-architecture-simplified",
+    "title": "DataOps",
+    "section": "Target Architecture (Simplified)",
+    "text": "Target Architecture (Simplified)\n\n\n\n\n\nflowchart TB\n    A[Data Sources] --&gt; B[Data Platform]\n    B --&gt; C[Governance Layer]\n    C --&gt; D[Analytics & AI]\n    D --&gt; E[Business Decisions]"
+  },
+  {
+    "objectID": "index.html#key-success-factors",
+    "href": "index.html#key-success-factors",
+    "title": "DataOps",
+    "section": "Key Success Factors",
+    "text": "Key Success Factors\n\nExecutive alignment\nStrong governance\nUse-case driven execution\nContinuous iteration"
+  },
+  {
+    "objectID": "index.html#final-message",
+    "href": "index.html#final-message",
+    "title": "DataOps",
+    "section": "Final Message",
+    "text": "Final Message\n\nThe biggest barrier is not data or technology — it is organizational culture\n\n\nBreak silos\nBuild trust\nDeliver value\nScale adoption"
+  },
+  {
+    "objectID": "index.html#closing",
+    "href": "index.html#closing",
+    "title": "DataOps",
+    "section": "Closing",
+    "text": "Closing\n\nData strategy must:\n\nStart with business\n\nDeliver value quickly\n\nScale through culture\n\nThe CDO role: &gt; Lead transformation, not just data"
   }
 ]
