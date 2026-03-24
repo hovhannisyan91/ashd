@@ -389,3 +389,64 @@ DECISION --> OPS
 
 
 > *Lead transformation, not just data*
+
+## Team
+
+```{mermaid}
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#C8D2E0',
+  'primaryBorderColor': '#3B6EAD',
+  'primaryTextColor': '#000000',
+  'lineColor': '#3B6EAD',
+  'clusterBkg': '#EAF1F8',
+  'clusterBorder': '#EAF1F8',
+  'clusterLabelColor': '#000000'
+}}}%%
+
+flowchart TB
+
+%% =======================
+%% GLOBAL STYLES
+%% =======================
+classDef defaultStyle fill:#C8D2E0,stroke:#3B6EAD,stroke-width:2px,color:#000;
+
+%% =======================
+%% TOP LEVEL
+%% =======================
+CDO[Chief Data Officer]
+
+%% =======================
+%% TEAM STRUCTURE
+%% =======================
+subgraph TEAM[Data Organization]
+    direction LR
+
+    AE[Analytics Engineers]
+    DE[Data Engineers]
+    DA[Data Analysts]
+    ML[ML Engineers]
+    OPS[DevOps / MLOps]
+    PM[Project Manager]
+
+end
+
+%% =======================
+%% APPLY STYLES
+%% =======================
+class CDO,AE,DE,DA,ML,OPS,PM defaultStyle;
+
+%% =======================
+%% REMOVE SUBGRAPH BORDERS
+%% =======================
+style TEAM stroke-width:0px
+
+%% =======================
+%% STRUCTURE
+%% =======================
+CDO --> AE
+CDO --> DE
+CDO --> DA
+CDO --> ML
+CDO --> OPS
+CDO --> PM
+```
