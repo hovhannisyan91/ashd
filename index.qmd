@@ -278,18 +278,8 @@ Vertical = Pillars (capabilities)
 
 ## Cultural Transformation Journey {.smaller}
 
-```{mermaid}
-flowchart LR
-    A[Data Awareness] --> B[Trust in Data]
-    B --> C[Adoption]
-    C --> D[Data-Driven Decisions]
-```
+![]({{< meta image_path >}}ctj.jpg)
 
-<!-- 
-IMAGE SUGGESTION:
-Maturity curve:
-Awareness → Adoption → Optimization
--->
 
 
 
@@ -300,11 +290,96 @@ Awareness → Adoption → Optimization
   - Tech advances faster than culture  
   - Data exists without governance  
 
----
+
 
 ## Target Architecture (Simplified) {.smaller}
 
+```{mermaid}
+flowchart TB
 
+%% =======================
+%% GLOBAL STYLES
+%% =======================
+classDef defaultStyle fill:#C8D2E0,stroke:#3B6EAD,stroke-width:2px,color:#000;
+classDef highlightStyle fill:#AFC4E8,stroke:#3B6EAD,stroke-width:2px,color:#000;
+
+%% =======================
+%% DATA SOURCES
+%% =======================
+subgraph L1[Data Sources]
+    direction LR
+    CRM[(CRM Systems)]
+    CORE[(Core Banking)]
+    EXT[(External Data Providers)]
+end
+
+%% =======================
+%% DATA PLATFORM
+%% =======================
+subgraph L2[Data Platform]
+    direction LR
+    INGEST[Ingestion / ETL / ELT]
+    LAKE[(Data Lake / Lakehouse)]
+    DWH[(Enterprise Data Warehouse)]
+end
+
+%% =======================
+%% GOVERNANCE
+%% =======================
+subgraph L3[Governance Layer]
+    direction LR
+    GOV[Data Governance]
+    QUALITY[Data Quality Controls]
+    META[Metadata & Lineage]
+end
+
+%% =======================
+%% ANALYTICS & AI (BRIGHTER BLUE)
+%% =======================
+subgraph L4[Analytics & AI]
+    direction LR
+    BI[Business Intelligence]
+    DS[Data Science Models]
+    AI[AI / Decision Engines]
+end
+
+%% =======================
+%% BUSINESS
+%% =======================
+subgraph L5[Business Decisions]
+    direction LR
+    DECISION[Strategic Decisions]
+    OPS[Operational Actions]
+end
+
+%% =======================
+%% APPLY STYLES
+%% =======================
+class CRM,CORE,EXT,INGEST,LAKE,DWH,GOV,QUALITY,META,DECISION,OPS defaultStyle;
+class BI,DS,AI highlightStyle;
+
+%% =======================
+%% FLOW
+%% =======================
+CRM --> INGEST
+CORE --> INGEST
+EXT --> INGEST
+
+INGEST --> LAKE
+LAKE --> DWH
+
+DWH --> GOV
+GOV --> QUALITY
+QUALITY --> META
+
+META --> BI
+META --> DS
+DS --> AI
+
+AI --> DECISION
+BI --> DECISION
+DECISION --> OPS
+```
 <!-- 
 IMAGE SUGGESTION:
 Enterprise architecture diagram:
@@ -347,6 +422,6 @@ Include CRM, Core Banking, External Data → DW/Lakehouse → AI layer
 
 . . .
 
-$$\downarrow$$
 
-**Lead transformation, not just data**
+
+*Lead transformation, not just data*
