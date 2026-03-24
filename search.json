@@ -18,21 +18,21 @@
     "href": "index.html#data-silos-in-banking",
     "title": "DataOps",
     "section": "Data Silos in Banking",
-    "text": "Data Silos in Banking"
+    "text": "Data Silos in Banking\n\n."
   },
   {
     "objectID": "index.html#data-silo-management",
     "href": "index.html#data-silo-management",
     "title": "DataOps",
-    "section": "Data Silo management",
-    "text": "Data Silo management"
+    "section": "Data Silo Management",
+    "text": "Data Silo Management\n\n."
   },
   {
     "objectID": "index.html#why-silos-persist",
     "href": "index.html#why-silos-persist",
     "title": "DataOps",
     "section": "Why Silos Persist",
-    "text": "Why Silos Persist\n\nOrganizational structure (departmental ownership)\n\nLack of governance and ownership\n\nTechnology fragmentation\n\nCultural resistance to sharing data"
+    "text": "Why Silos Persist\n\n\nOrganizational structure (departmental ownership)\n\nLack of governance and ownership\n\nTechnology fragmentation\n\nCultural resistance to sharing data"
   },
   {
     "objectID": "index.html#cultural",
@@ -53,28 +53,21 @@
     "href": "index.html#change-agent-model",
     "title": "DataOps",
     "section": "Change Agent Model",
-    "text": "Change Agent Model"
-  },
-  {
-    "objectID": "index.html#from-silos-to-integrated-bank",
-    "href": "index.html#from-silos-to-integrated-bank",
-    "title": "DataOps",
-    "section": "From Silos to Integrated Bank",
-    "text": "From Silos to Integrated Bank\n\n\n\n\n\n\nflowchart LR\n    A[Siloed Systems] --&gt; B[Integrated Data Platform]\n    B --&gt; C[Trusted Data]\n    C --&gt; D[Analytics & AI]\n    D --&gt; E[Business Value]"
+    "text": "Change Agent Model\n\n."
   },
   {
     "objectID": "index.html#data-strategy-model",
     "href": "index.html#data-strategy-model",
     "title": "DataOps",
     "section": "Data Strategy Model",
-    "text": "Data Strategy Model\n\nCombine:\n\nExecution Steps (6-step framework)\n\nFoundational Pillars (4 pillars)\n\n\nGoal: &gt; Move from strategy → execution → culture adoption"
+    "text": "Data Strategy Model\n\nCombine:\n\nExecution Steps (6-step framework)\n\nFoundational Pillars (4 pillars)\n\n\n\nMove from strategy → execution → culture adoption"
   },
   {
     "objectID": "index.html#integrated-framework",
     "href": "index.html#integrated-framework",
     "title": "DataOps",
     "section": "Integrated Framework",
-    "text": "Integrated Framework\n\n\n\n\n\nflowchart TB\n\n    subgraph Steps\n        A[Listen]\n        B[Assess]\n        C[Apply]\n        D[Test]\n        E[Execute]\n        F[Scale]\n    end\n\n    subgraph Pillars\n        P1[Data]\n        P2[Technology]\n        P3[Workflow]\n        P4[Culture]\n    end\n\n    A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F\n\n    P1 --- A\n    P2 --- C\n    P3 --- E\n    P4 --- F"
+    "text": "Integrated Framework\n\n\n\n\n\nflowchart LR\n\n    subgraph Steps\n        A[Listen]\n        B[Assess]\n        C[Apply]\n        D[Test]\n        E[Execute]\n        F[Scale]\n    end\n\n    subgraph Pillars\n        P1[Data]\n        P2[Technology]\n        P3[Workflow]\n        P4[Culture]\n    end\n\n    A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F\n\n    P1 --- A\n    P2 --- C\n    P3 --- E\n    P4 --- F"
   },
   {
     "objectID": "index.html#listen-data",

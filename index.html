@@ -195,22 +195,24 @@ Karen Hovhannisyan
 <section id="data-silos-in-banking" class="slide level2 smaller">
 <h2>Data Silos in Banking</h2>
 
-<img data-src="img//data_silo.png" class="r-stretch"></section>
+<img data-src="img//data_silo.png" class="r-stretch quarto-figure-center"><p class="caption">.</p></section>
 <section id="data-silo-management" class="slide level2">
-<h2>Data Silo management</h2>
+<h2>Data Silo Management</h2>
 
-<img data-src="img//data_silo_m.png" class="r-stretch"></section>
+<img data-src="img//data_silo_m.png" class="r-stretch quarto-figure-center"><p class="caption">.</p></section>
 <section id="why-silos-persist" class="slide level2 smaller">
 <h2>Why Silos Persist</h2>
+<div>
 <ul>
-<li>Organizational structure (departmental ownership)<br>
+<li class="fragment">Organizational structure (departmental ownership)<br>
 </li>
-<li>Lack of governance and ownership<br>
+<li class="fragment">Lack of governance and ownership<br>
 </li>
-<li>Technology fragmentation<br>
+<li class="fragment">Technology fragmentation<br>
 </li>
-<li><strong>Cultural resistance to sharing data</strong></li>
+<li class="fragment"><strong>Cultural resistance to sharing data</strong></li>
 </ul>
+</div>
 </section>
 <section id="cultural" class="slide level2 smaller">
 <h2>Cultural</h2>
@@ -222,9 +224,9 @@ Karen Hovhannisyan
 <div style="justify-content: center; align-items: center; text-align: center;">
 <div class="columns">
 <div class="column">
-<p>Experience-driven</p>
+<p><em>Experience-driven</em></p>
 </div><div class="column">
-<p>Not data-driven</p>
+<p><em>Not data-driven</em></p>
 </div></div>
 <!-- end columns -->
 </div>
@@ -253,33 +255,7 @@ Karen Hovhannisyan
 <section id="change-agent-model" class="slide level2 smaller">
 <h2>Change Agent Model</h2>
 
-<img data-src="img//change_agent_mode.png" class="r-stretch"></section>
-<section id="from-silos-to-integrated-bank" class="slide level2 smaller">
-<h2>From Silos to Integrated Bank</h2>
-<!-- todo -->
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    A[Siloed Systems] --&gt; B[Integrated Data Platform]
-    B --&gt; C[Trusted Data]
-    C --&gt; D[Analytics &amp; AI]
-    D --&gt; E[Business Value]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<!-- 
-IMAGE SUGGESTION:
-Before/After transformation diagram:
-Left: fragmented systems
-Right: unified data platform
--->
-</section>
+<img data-src="img//change_agent_mode.png" class="r-stretch quarto-figure-center"><p class="caption">.</p></section>
 <section id="data-strategy-model" class="slide level2 smaller">
 <h2>Data Strategy Model</h2>
 <ul>
@@ -287,11 +263,12 @@ Right: unified data platform
 <ul>
 <li><strong>Execution Steps (6-step framework)</strong><br>
 </li>
-<li><strong>Foundational Pillars (4 pillars)</strong><br>
-</li>
+<li><strong>Foundational Pillars (4 pillars)</strong></li>
 </ul></li>
-<li><strong>Goal:</strong> &gt; Move from <strong>strategy → execution → culture adoption</strong></li>
 </ul>
+<blockquote>
+<p>Move from <strong>strategy → execution → culture adoption</strong></p>
+</blockquote>
 </section>
 <section id="integrated-framework" class="slide level2 smaller">
 <h2>Integrated Framework</h2>
@@ -300,7 +277,7 @@ Right: unified data platform
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart TB
+<pre class="mermaid mermaid-js">flowchart LR
 
     subgraph Steps
         A[Listen]
@@ -931,7 +908,7 @@ Include CRM, Core Banking, External Data → DW/Lakehouse → AI layer
       }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/hovhannisyan91\.github\.io\/ashd\/");
+          var filterRegex = new RegExp("https:\/\/hovhannisyan91\.github\.io\/ashb\/");
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
