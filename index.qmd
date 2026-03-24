@@ -253,13 +253,14 @@ Vertical = Pillars (capabilities)
 ## Target Architecture {.smaller}
 
 ```{mermaid}
+
 flowchart LR
 
 %% =======================
 %% GLOBAL STYLES
 %% =======================
 classDef defaultStyle fill:#C8D2E0,stroke:#3B6EAD,stroke-width:2px,color:#000;
-classDef highlightStyle fill:#C8D2E0,stroke:#3B6EAD,stroke-width:2px,color:#000;
+classDef highlightStyle fill:#AFC4E8,stroke:#3B6EAD,stroke-width:2px,color:#000;
 
 %% =======================
 %% DATA SOURCES
@@ -314,7 +315,7 @@ end
 %% APPLY NODE STYLES
 %% =======================
 class CRM,CORE,EXT,INGEST,LAKE,DWH,GOV,QUALITY,META,DECISION,OPS defaultStyle;
-class BI,DS,AI defaultStyle;
+class BI,DS,AI highlightStyle;
 
 %% =======================
 %% SUBGRAPH BACKGROUND (NO BORDERS)
@@ -346,6 +347,8 @@ DS --> AI
 AI --> DECISION
 BI --> DECISION
 DECISION --> OPS
+
+
 ```
 
 ---
