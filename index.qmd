@@ -304,13 +304,6 @@ Awareness → Adoption → Optimization
 
 ## Target Architecture (Simplified) {.smaller}
 
-```{mermaid}
-flowchart TB
-    A[Data Sources] --> B[Data Platform]
-    B --> C[Governance Layer]
-    C --> D[Analytics & AI]
-    D --> E[Business Decisions]
-```
 
 <!-- 
 IMAGE SUGGESTION:
