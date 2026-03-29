@@ -46,7 +46,7 @@
     "href": "index.html#the-role-of-the-cdo",
     "title": "DataOps",
     "section": "The Role of the CDO",
-    "text": "The Role of the CDO\nBridge:\n\nBusiness\n\nTechnology\n\nGovernance\n\n\nShift organization from: Siloed thinking \\(\\rightarrow\\) Integrated, data-driven culture"
+    "text": "The Role of the CDO\nBridge:\n\nBusiness\n\nTechnology\n\nGovernance\n\n\nShift organization from Siloed thinking \\(\\rightarrow\\) Integrated, data-driven culture"
   },
   {
     "objectID": "index.html#change-agent-model",
@@ -102,14 +102,14 @@
     "href": "index.html#execute-and-value-delivery",
     "title": "DataOps",
     "section": "Execute and Value Delivery",
-    "text": "Execute and Value Delivery\n\nBuild MVPs (small gains):\n\nChurn prediction\n\nCampaign targeting\n\nRisk scoring\nAutomations\n\n\nDeliver:\n\nFast, measurable impact"
+    "text": "Execute and Value Delivery\n\nBuild MVPs (small gains):\n\nChurn prediction\n\nCampaign targeting\n\nRisk scoring\nAutomations\n\n\nDelivery: Fast, measurable impact"
   },
   {
     "objectID": "index.html#scale-culture",
     "href": "index.html#scale-culture",
     "title": "DataOps",
     "section": "Scale + Culture",
-    "text": "Scale + Culture\n\nExpand successful use cases\n\nEnable:\n\nData literacy\n\nSelf-service analytics\n\n\nCreate:\n\nOrganization-wide adoption"
+    "text": "Scale + Culture\n\nExpanding successful use cases\n\nEnable:\n\nData literacy\n\nSelf-service analytics\n\n\nCreate: Organization-wide adoption"
   },
   {
     "objectID": "index.html#the-four-pillars-foundation",
@@ -130,14 +130,14 @@
     "href": "index.html#success-requires-alignment",
     "title": "DataOps",
     "section": "Success Requires Alignment",
-    "text": "Success Requires Alignment\n\nData, Technology, Workflow, Culture must move in lockstep\n\nFailure occurs when:\n\nTech advances faster than culture\n\nData exists without governance"
+    "text": "Success Requires Alignment\n\nData, Technology, Workflow, Culture must move in lockstep\n\nFailure occurs when:\n\nTech advances faster than culture\n\nData exists without governance\n\n\nqu"
   },
   {
     "objectID": "index.html#target-architecture",
     "href": "index.html#target-architecture",
     "title": "DataOps",
     "section": "Target Architecture",
-    "text": "Target Architecture\n\n\n\n\n\nflowchart LR\n\n%% =======================\n%% GLOBAL STYLES\n%% =======================\nclassDef defaultStyle fill:#C8D2E0,stroke:#3B6EAD,stroke-width:2px,color:#000;\nclassDef highlightStyle fill:#AFC4E8,stroke:#3B6EAD,stroke-width:2px,color:#000;\n\n%% =======================\n%% DATA SOURCES\n%% =======================\nsubgraph L1[Data Sources]\n    direction LR\n    CRM[(CRM Systems)]\n    CORE[(Core Banking)]\n    EXT[(External Data Providers)]\nend\n\n%% =======================\n%% DATA PLATFORM\n%% =======================\nsubgraph L2[Data Platform]\n    direction LR\n    INGEST[Ingestion / ETL / ELT]\n    LAKE[(Data Lake / Lakehouse)]\n    DWH[(Enterprise Data Warehouse)]\nend\n\n%% =======================\n%% GOVERNANCE\n%% =======================\nsubgraph L3[Governance Layer]\n    direction LR\n    GOV[Data Governance]\n    QUALITY[Data Quality Controls]\n    META[Metadata & Lineage]\nend\n\n%% =======================\n%% ANALYTICS & AI\n%% =======================\nsubgraph L4[Analytics & AI]\n    direction LR\n    BI[Business Intelligence]\n    DS[Data Science Models]\n    AI[AI / Decision Engines]\nend\n\n%% =======================\n%% BUSINESS\n%% =======================\nsubgraph L5[Business Decisions]\n    direction LR\n    DECISION[Strategic Decisions]\n    OPS[Operational Actions]\nend\n\n%% =======================\n%% APPLY NODE STYLES\n%% =======================\nclass CRM,CORE,EXT,INGEST,LAKE,DWH,GOV,QUALITY,META,DECISION,OPS defaultStyle;\nclass BI,DS,AI highlightStyle;\n\n%% =======================\n%% SUBGRAPH BACKGROUND (NO BORDERS)\n%% =======================\nstyle L1 fill:#EAF1F8,stroke-width:0px\nstyle L2 fill:#EAF1F8,stroke-width:0px\nstyle L3 fill:#EAF1F8,stroke-width:0px\nstyle L4 fill:#EAF1F8,stroke-width:0px\nstyle L5 fill:#EAF1F8,stroke-width:0px\n\n%% =======================\n%% FLOW\n%% =======================\nCRM --&gt; INGEST\nCORE --&gt; INGEST\nEXT --&gt; INGEST\n\nINGEST --&gt; LAKE\nLAKE --&gt; DWH\n\nDWH --&gt; GOV\nGOV --&gt; QUALITY\nQUALITY --&gt; META\n\nMETA --&gt; BI\nMETA --&gt; DS\nDS --&gt; AI\n\nAI --&gt; DECISION\nBI --&gt; DECISION\nDECISION --&gt; OPS"
+    "text": "Target Architecture\n\n\n\n\n\nflowchart LR\n\n%% =======================\n%% GLOBAL STYLES\n%% =======================\nclassDef defaultStyle fill:#C8D2E0,stroke:#3B6EAD,stroke-width:2px,color:#000;\n\n%% =======================\n%% DATA SOURCES\n%% =======================\nsubgraph L1[Data Sources]\n    direction LR\n    CRM[(CRM Systems)]\n    CORE[(Core Banking)]\n    EXT[(External Data Providers)]\nend\n\n%% =======================\n%% DATA PLATFORM\n%% =======================\nsubgraph L2[Data Platform]\n    direction LR\n    INGEST[Ingestion / ETL / ELT]\n    LAKE[(Data Lake / Lakehouse)]\n    DWH[(Enterprise Data Warehouse)]\nend\n\n%% =======================\n%% GOVERNANCE\n%% =======================\nsubgraph L3[Governance Layer]\n    direction LR\n    GOV[Data Governance]\n    QUALITY[Data Quality Controls]\n    META[Metadata & Lineage]\nend\n\n%% =======================\n%% ANALYTICS & AI\n%% =======================\nsubgraph L4[Analytics & AI]\n    direction LR\n    BI[Business Intelligence]\n    DS[Data Science Models]\n    AI[AI / Decision Engines]\nend\n\n%% =======================\n%% BUSINESS\n%% =======================\nsubgraph L5[Business Decisions]\n    direction LR\n    DECISION[Strategic Decisions]\n    OPS[Operational Actions]\nend\n\n%% =======================\n%% APPLY NODE STYLES\n%% =======================\nclass CRM,CORE,EXT,INGEST,LAKE,DWH,GOV,QUALITY,META,BI,DS,AI,DECISION,OPS defaultStyle;\n\n%% =======================\n%% SUBGRAPH STYLES (FORCE BLACK TEXT)\n%% =======================\nstyle L1 fill:#EAF1F8,stroke-width:0px,color:#000\nstyle L2 fill:#EAF1F8,stroke-width:0px,color:#000\nstyle L3 fill:#EAF1F8,stroke-width:0px,color:#000\nstyle L4 fill:#EAF1F8,stroke-width:0px,color:#000\nstyle L5 fill:#EAF1F8,stroke-width:0px,color:#000\n\n%% =======================\n%% FLOW\n%% =======================\nCRM --&gt; INGEST\nCORE --&gt; INGEST\nEXT --&gt; INGEST\n\nINGEST --&gt; LAKE\nLAKE --&gt; DWH\n\nDWH --&gt; GOV\nGOV --&gt; QUALITY\nQUALITY --&gt; META\n\nMETA --&gt; BI\nMETA --&gt; DS\nDS --&gt; AI\n\nAI --&gt; DECISION\nBI --&gt; DECISION\nDECISION --&gt; OPS"
   },
   {
     "objectID": "index.html#key-success-factors",
@@ -157,14 +157,14 @@
     "objectID": "index.html#the-cdos-role-in-my-undersdanting",
     "href": "index.html#the-cdos-role-in-my-undersdanting",
     "title": "DataOps",
-    "section": "The CDO’s role in my undersdanting",
-    "text": "The CDO’s role in my undersdanting\nData strategy must:\n\n\nStart with business\n\nDeliver value quickly\n\nScale through culture\n\n\n\n\nLead transformation, not just data"
+    "section": "The CDO’s role in my undersdanting…",
+    "text": "The CDO’s role in my undersdanting…\nData strategy must:\n\n\nStart with business\n\nDeliver value quickly\n\nScale through culture\n\n\n\n\nLead transformation, not just data"
   },
   {
     "objectID": "index.html#team",
     "href": "index.html#team",
     "title": "DataOps",
     "section": "Team",
-    "text": "Team\n\n\n\n\n\n%%{init: {'theme': 'base', 'themeVariables': {\n  'primaryColor': '#C8D2E0',\n  'primaryBorderColor': '#3B6EAD',\n  'primaryTextColor': '#000000',\n  'lineColor': '#3B6EAD',\n  'clusterBkg': '#EAF1F8',\n  'clusterBorder': '#EAF1F8',\n  'clusterLabelColor': '#000000'\n}}}%%\n\nflowchart TB\n\n%% =======================\n%% GLOBAL STYLES\n%% =======================\nclassDef defaultStyle fill:#C8D2E0,stroke:#3B6EAD,stroke-width:2px,color:#000;\n\n%% =======================\n%% TOP LEVEL\n%% =======================\nCDO[Chief Data Officer]\n\n%% =======================\n%% TEAM STRUCTURE\n%% =======================\nsubgraph TEAM[Data Organization]\n    direction LR\n\n    AE[Analytics Engineers]\n    DE[Data Engineers]\n    DA[Data Analysts]\n    ML[ML Engineers]\n    OPS[DevOps / MLOps]\n    PM[Project Manager]\n\nend\n\n%% =======================\n%% APPLY STYLES\n%% =======================\nclass CDO,AE,DE,DA,ML,OPS,PM defaultStyle;\n\n%% =======================\n%% REMOVE SUBGRAPH BORDERS\n%% =======================\nstyle TEAM stroke-width:0px\n\n%% =======================\n%% STRUCTURE\n%% =======================\nCDO --&gt; AE\nCDO --&gt; DE\nCDO --&gt; DA\nCDO --&gt; ML\nCDO --&gt; OPS\nCDO --&gt; PM"
+    "text": "Team\n\n\n\n\n\n%%{init: {'theme': 'base', 'themeVariables': {\n  'primaryColor': '#C8D2E0',\n  'primaryBorderColor': '#3B6EAD',\n  'primaryTextColor': '#000000',\n  'lineColor': '#3B6EAD',\n  'clusterBkg': '#EAF1F8',\n  'clusterBorder': '#EAF1F8',\n  'clusterLabelColor': '#000000'\n}}}%%\n\nflowchart TB\n\n%% =======================\n%% GLOBAL STYLES\n%% =======================\nclassDef defaultStyle fill:#C8D2E0,stroke:#3B6EAD,stroke-width:2px,color:#000;\n\n%% =======================\n%% TOP LEVEL\n%% =======================\nCDO[Chief Data Officer]\n\n%% =======================\n%% TEAM STRUCTURE\n%% =======================\nsubgraph TEAM[Data Organization]\n    direction LR\n\n    AE[Analytics Engineers]\n    DE[Data Engineers]\n    DA[Data Analysts]\n    ML[ML Engineers]\n    OPS[DevOps / MLOps]\n    PM[Project Manager]\n\nend\n\n%% =======================\n%% APPLY NODE STYLES\n%% =======================\nclass CDO,AE,DE,DA,ML,OPS,PM defaultStyle;\n\n%% =======================\n%% FORCE SUBGRAPH STYLE (IMPORTANT)\n%% =======================\nstyle TEAM fill:#EAF1F8,stroke-width:0px,color:#000\n\n%% =======================\n%% STRUCTURE\n%% =======================\nCDO --&gt; AE\nCDO --&gt; DE\nCDO --&gt; DA\nCDO --&gt; ML\nCDO --&gt; OPS\nCDO --&gt; PM"
   }
 ]

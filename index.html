@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="Karen Hovhannisyan">
-  <meta name="dcterms.date" content="2026-03-24">
+  <meta name="dcterms.date" content="2026-03-29">
   <title>Data Vision – DataOps</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -154,7 +154,7 @@ Karen Hovhannisyan
 </div>
 </div>
 
-  <p class="date">2026-03-24</p>
+  <p class="date">2026-03-29</p>
 </section>
 <section id="objective" class="slide level2 smaller">
 <h2>Objective</h2>
@@ -251,7 +251,7 @@ Karen Hovhannisyan
 <li>Governance</li>
 </ul>
 <div class="fragment">
-<p><strong>Shift organization from:</strong> <em>Siloed thinking</em> <span class="math inline">\(\rightarrow\)</span> <em>Integrated, data-driven culture</em></p>
+<p>Shift organization from <em>Siloed thinking</em> <span class="math inline">\(\rightarrow\)</span> <em>Integrated, data-driven culture</em></p>
 </div>
 </section>
 <section id="change-agent-model" class="slide level2 smaller">
@@ -306,7 +306,7 @@ Vertical = Pillars (capabilities)
 <section id="assess-technology" class="slide level2 smaller">
 <h2>Assess + Technology</h2>
 <ul>
-<li>Evaluate:
+<li><strong>Evaluate:</strong>
 <ul>
 <li>Current architecture<br>
 </li>
@@ -314,7 +314,7 @@ Vertical = Pillars (capabilities)
 </li>
 <li>Integration gaps</li>
 </ul></li>
-<li>Identify:
+<li><strong>Identify:</strong>
 <ul>
 <li>Legacy constraints<br>
 </li>
@@ -325,7 +325,7 @@ Vertical = Pillars (capabilities)
 <section id="apply-workflow" class="slide level2 smaller">
 <h2>Apply + Workflow</h2>
 <ul>
-<li>Embed data into:
+<li><strong>Embed data into:</strong>
 <ul>
 <li>Credit decisioning<br>
 </li>
@@ -370,28 +370,22 @@ Vertical = Pillars (capabilities)
 <li>Automations<br>
 </li>
 </ul></li>
-<li><strong>Deliver:</strong>
-<ul>
-<li>Fast, measurable impact</li>
-</ul></li>
+<li><strong>Delivery:</strong> Fast, measurable impact</li>
 </ul>
 </section>
 <section id="scale-culture" class="slide level2 smaller">
 <h2>Scale + Culture</h2>
 <ul>
-<li>Expand successful use cases<br>
+<li>Expanding successful use cases<br>
 </li>
-<li>Enable:
+<li><strong>Enable:</strong>
 <ul>
 <li>Data literacy<br>
 </li>
 <li>Self-service analytics<br>
 </li>
 </ul></li>
-<li>Create:
-<ul>
-<li>Organization-wide adoption</li>
-</ul></li>
+<li><strong>Create:</strong> Organization-wide adoption</li>
 </ul>
 </section>
 <section id="the-four-pillars-foundation" class="slide level2 smaller">
@@ -422,6 +416,7 @@ Vertical = Pillars (capabilities)
 <li>Data exists without governance</li>
 </ul></li>
 </ul>
+<p>qu</p>
 </section>
 <section id="target-architecture" class="slide level2 smaller">
 <h2>Target Architecture</h2>
@@ -436,7 +431,6 @@ Vertical = Pillars (capabilities)
 %% GLOBAL STYLES
 %% =======================
 classDef defaultStyle fill:#C8D2E0,stroke:#3B6EAD,stroke-width:2px,color:#000;
-classDef highlightStyle fill:#AFC4E8,stroke:#3B6EAD,stroke-width:2px,color:#000;
 
 %% =======================
 %% DATA SOURCES
@@ -490,17 +484,16 @@ end
 %% =======================
 %% APPLY NODE STYLES
 %% =======================
-class CRM,CORE,EXT,INGEST,LAKE,DWH,GOV,QUALITY,META,DECISION,OPS defaultStyle;
-class BI,DS,AI highlightStyle;
+class CRM,CORE,EXT,INGEST,LAKE,DWH,GOV,QUALITY,META,BI,DS,AI,DECISION,OPS defaultStyle;
 
 %% =======================
-%% SUBGRAPH BACKGROUND (NO BORDERS)
+%% SUBGRAPH STYLES (FORCE BLACK TEXT)
 %% =======================
-style L1 fill:#EAF1F8,stroke-width:0px
-style L2 fill:#EAF1F8,stroke-width:0px
-style L3 fill:#EAF1F8,stroke-width:0px
-style L4 fill:#EAF1F8,stroke-width:0px
-style L5 fill:#EAF1F8,stroke-width:0px
+style L1 fill:#EAF1F8,stroke-width:0px,color:#000
+style L2 fill:#EAF1F8,stroke-width:0px,color:#000
+style L3 fill:#EAF1F8,stroke-width:0px,color:#000
+style L4 fill:#EAF1F8,stroke-width:0px,color:#000
+style L5 fill:#EAF1F8,stroke-width:0px,color:#000
 
 %% =======================
 %% FLOW
@@ -523,8 +516,6 @@ DS --&gt; AI
 AI --&gt; DECISION
 BI --&gt; DECISION
 DECISION --&gt; OPS
-
-
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -560,7 +551,7 @@ DECISION --&gt; OPS
 </ul>
 </section>
 <section id="the-cdos-role-in-my-undersdanting" class="slide level2 smaller">
-<h2>The CDO’s role in my undersdanting</h2>
+<h2>The CDO’s role in my undersdanting…</h2>
 <p><strong>Data strategy must:</strong></p>
 <div>
 <ul>
@@ -622,14 +613,14 @@ subgraph TEAM[Data Organization]
 end
 
 %% =======================
-%% APPLY STYLES
+%% APPLY NODE STYLES
 %% =======================
 class CDO,AE,DE,DA,ML,OPS,PM defaultStyle;
 
 %% =======================
-%% REMOVE SUBGRAPH BORDERS
+%% FORCE SUBGRAPH STYLE (IMPORTANT)
 %% =======================
-style TEAM stroke-width:0px
+style TEAM fill:#EAF1F8,stroke-width:0px,color:#000
 
 %% =======================
 %% STRUCTURE
